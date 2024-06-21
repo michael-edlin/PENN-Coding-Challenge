@@ -14,6 +14,8 @@
 		165DFDA92C24B085005144C8 /* PENN_Code_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165DFDA82C24B085005144C8 /* PENN_Code_ChallengeTests.swift */; };
 		165DFDB32C24B085005144C8 /* PENN_Code_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165DFDB22C24B085005144C8 /* PENN_Code_ChallengeUITests.swift */; };
 		165DFDB52C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165DFDB42C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift */; };
+		1675CA452C261F470088094E /* AQIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675CA442C261F3E0088094E /* AQIData.swift */; };
+		1675CA472C261F4F0088094E /* AQIDataDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675CA462C261F4B0088094E /* AQIDataDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		165DFDAE2C24B085005144C8 /* PENN Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PENN Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165DFDB22C24B085005144C8 /* PENN_Code_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PENN_Code_ChallengeUITests.swift; sourceTree = "<group>"; };
 		165DFDB42C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PENN_Code_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1675CA442C261F3E0088094E /* AQIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIData.swift; sourceTree = "<group>"; };
+		1675CA462C261F4B0088094E /* AQIDataDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIDataDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,12 @@
 		165DFD902C24B083005144C8 /* PENN Code Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				165DFD912C24B083005144C8 /* AppDelegate.swift */,
-				165DFD932C24B083005144C8 /* SceneDelegate.swift */,
-				165DFD952C24B083005144C8 /* ViewController.swift */,
+				1675CA3C2C261DBB0088094E /* Delegates */,
+				1675CA3F2C261DD70088094E /* Controllers */,
+				1675CA402C261DE10088094E /* Models */,
+				1675CA412C261DF70088094E /* Views */,
+				1675CA422C261E060088094E /* Network */,
+				1675CA432C261E0B0088094E /* Utilities */,
 				165DFD9A2C24B085005144C8 /* Assets.xcassets */,
 				165DFD9F2C24B085005144C8 /* Info.plist */,
 			);
@@ -119,6 +126,53 @@
 				165DFDB42C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "PENN Code ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		1675CA3C2C261DBB0088094E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				165DFD912C24B083005144C8 /* AppDelegate.swift */,
+				165DFD932C24B083005144C8 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		1675CA3F2C261DD70088094E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				165DFD952C24B083005144C8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1675CA402C261DE10088094E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1675CA462C261F4B0088094E /* AQIDataDetails.swift */,
+				1675CA442C261F3E0088094E /* AQIData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1675CA412C261DF70088094E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1675CA422C261E060088094E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1675CA432C261E0B0088094E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				165DFD962C24B083005144C8 /* ViewController.swift in Sources */,
+				1675CA472C261F4F0088094E /* AQIDataDetails.swift in Sources */,
+				1675CA452C261F470088094E /* AQIData.swift in Sources */,
 				165DFD922C24B083005144C8 /* AppDelegate.swift in Sources */,
 				165DFD942C24B083005144C8 /* SceneDelegate.swift in Sources */,
 			);
