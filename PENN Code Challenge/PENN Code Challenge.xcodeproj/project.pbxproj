@@ -16,6 +16,7 @@
 		165DFDB52C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165DFDB42C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift */; };
 		1675CA452C261F470088094E /* AQIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675CA442C261F3E0088094E /* AQIData.swift */; };
 		1675CA472C261F4F0088094E /* AQIDataDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675CA462C261F4B0088094E /* AQIDataDetails.swift */; };
+		1675CA492C2629270088094E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675CA482C2629220088094E /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		165DFDB42C24B085005144C8 /* PENN_Code_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PENN_Code_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1675CA442C261F3E0088094E /* AQIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIData.swift; sourceTree = "<group>"; };
 		1675CA462C261F4B0088094E /* AQIDataDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIDataDetails.swift; sourceTree = "<group>"; };
+		1675CA482C2629220088094E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 		1675CA422C261E060088094E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				1675CA482C2629220088094E /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1675CA492C2629270088094E /* NetworkManager.swift in Sources */,
 				165DFD962C24B083005144C8 /* ViewController.swift in Sources */,
 				1675CA472C261F4F0088094E /* AQIDataDetails.swift in Sources */,
 				1675CA452C261F470088094E /* AQIData.swift in Sources */,
