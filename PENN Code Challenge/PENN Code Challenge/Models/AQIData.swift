@@ -8,7 +8,7 @@
 import Foundation
 
 struct AQIData: Decodable {
-    let city: String
-    let aqi: Int
-    let details: AQIDataDetails
+    let status: String
+    let data: AQIDataDetails?
+    let error: String?
 }
