@@ -7,11 +7,24 @@
 
 import Testing
 @testable import PENN_Code_Challenge
+import XCTest
 
-struct PENN_Code_ChallengeTests {
+class NetworkManagerTests: XCTestCase {
 
-    @Test func testExample() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    func testFetchAQIDataSuccess() async throws {
+        // Given
+        let latitude = 37.7749
+        let longitude = -122.4194
+        
+        // When
+        do {
+            let aqiData = try await NetworkManager.shared.fetchAQIData(for: latitude, longitude: longitude)
+            
+            // Then
+            XCTAssertNotNil(aqiData, "AQI data should not be nil")
+            XCTAssertEqual(aqiData.status, "ok", "Status should be 'ok'")
+        } catch {
+            XCTFail("Failed to fetch AQI data: \(error)")
+        }
     }
-
 }

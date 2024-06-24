@@ -2,7 +2,7 @@
 //  AQIDataDetails.swift
 //  PENN Code Challenge
 //
-//  Created by Tyler Edlin on 6/21/24.
+//  Created by Tyler Edlin on 6/23/24.
 //
 
 import Foundation
@@ -13,7 +13,7 @@ struct AQIDataDetails: Codable {
     let attributions: [Attribution]
     let city: City
     let dominentpol: String
-    let iaqi: Iaqi
+    let iaqi: Iaqi?
     let time: Time
     let forecast: Forecast?
 }
@@ -78,3 +78,4 @@ struct PollutantForecast: Codable {
     let max: Int
     let min: Int
 }
+

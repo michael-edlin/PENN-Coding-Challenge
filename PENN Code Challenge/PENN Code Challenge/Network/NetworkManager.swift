@@ -37,7 +37,6 @@ class NetworkManager {
                 throw NetworkError.requestFailed
             }
 
-            // Print raw JSON response
             if let jsonString = String(data: data, encoding: .utf8) {
                 print("Raw JSON response: \(jsonString)")
             }
@@ -56,3 +55,5 @@ class NetworkManager {
         }
     }
 }
+
+
